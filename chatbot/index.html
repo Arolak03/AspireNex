@@ -1,0 +1,91 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule-Based Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="chat-message bot-message">
+                <p>Welcome! How can I assist you today?</p>
+            </div>
+        </div>
+        <div class="user-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule-Based Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="chat-message bot-message">
+                <p>Welcome! How can I assist you today?</p>
+                <div class="options" id="options">
+                    <!-- Buttons will be dynamically added here 
+                </div>
+            </div>
+        </div>
+        <div class="user-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule-Based Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <div class="chat-message bot-message">
+                <p>Welcome! How can I assist you today?</p>
+            </div>
+        </div>
+        <div class="prompts">
+            <p><strong>Here are some things you can ask me:</strong> <br><br>Try with a Hi, how are you.</p>
+            <!-- <br> -->
+            <div class="button-container">
+                <button onclick="usePrompt('Hello')">Hello</button>
+                <button onclick="usePrompt('How are you?')">How are you?</button>
+                <button onclick="usePrompt('What is the price?')">What is the price?</button>
+                <button onclick="usePrompt('Can you help me?')">Can you help me?</button>
+                <button onclick="usePrompt('Goodbye')">Goodbye</button>
+            </div>
+            <br>
+            <p>Don't go without saying goodbye</p>
+        </div>
+        <div class="user-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
