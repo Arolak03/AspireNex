@@ -1,2 +1,9 @@
 
 This chatbot can be integrated with any commercial website as it also has a front end for easy interaction. It can be trained further to give more work cases and responses based on the keywords. You can use buttons for give prompts or can also type the prompt you want to give.
+
+
+START THE BOT:
+
+1. Clone the repository in your IDE
+2. Come to the 'index.html' file and right-click inside it. Open it in your browser
+3. Enjoy Talking and prompting
